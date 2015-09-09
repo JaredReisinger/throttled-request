@@ -1,6 +1,6 @@
 {
   "name": "throttled-request",
-  "version": "0.0.1",
+  "version": "0.1.0-alpha.1",
   "description": "A rate-limited wrapper around request.",
   "main": "./lib/index.js",
   "scripts": {
@@ -23,13 +23,11 @@
     "url": "https://github.com/JaredReisinger/throttled-request/issues"
   },
   "homepage": "https://github.com/JaredReisinger/throttled-request#readme",
-  "dependencies": {
-    "request": "^2.61.0"
-  },
   "devDependencies": {
     "codecov.io": "^0.1.6",
     "istanbul": "^0.3.19",
     "jasmine": "^2.3.2",
-    "proxyquire": "^1.7.2"
+    "proxyquire": "^1.7.2",
+    "request": "^2.61.0"
   }
 }
